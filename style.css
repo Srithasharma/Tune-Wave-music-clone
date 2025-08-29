@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #2a475f;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    background-color: #376880;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container {
+    padding: 20px;
+    align-items: center;
+}
+
+.songList {
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.songItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006d7c;
+    padding: 1px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.songItem:hover {
+    background-color: #008b99;
+}
+
+
+.songItem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.songItem .songName {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.songItem i {
+    cursor: pointer;
+    color: #fff;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #376880;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: px;
+}
+
+.songInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.songInfo img.cover-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.songInfo #gif {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#Progressbar {
+    width: 80%;
+    margin-bottom: 10px;
+    accent-color: #a259ff;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.controls i {
+    cursor: pointer;
+}
+.header {
+    background-color: #2a5d73;
+    padding: 10px 20px;
+    text-align: center; /* Keeps the whole block centered */
+}
+
+.title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Space between text and logo */
+}
+
+.logo {
+    height: 35px; /* Adjust size */
+    width: auto;
+    align-items: flex-start;
+}
+
+
+
+

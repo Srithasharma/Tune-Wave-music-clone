@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TuneWave</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">TuneWave</div>
+     <img src="Logo.png"  class="logo">
+     
+</nav>
+
+<!-- Songs List -->
+<div class="container">
+    <div class="songList">
+        <div class="songItem">
+            <img src="songpic1.jpg" alt="cover">
+            <span class="songName">Paruvam Vanaga</span>
+            <i class="fas fa-circle-play songItemPlay" id="0"></i>
+        </div>
+        <div class="songItem">
+            <img src="songpic2.jpg" alt="cover">
+            <span class="songName">Andangalena</span>
+            <i class="fas fa-circle-play songItemPlay" id="1"></i>
+        </div>
+        <div class="songItem">
+            <img src="songpic3.jpg" alt="cover">
+            <span class="songName">Aamani</span>
+            <i class="fas fa-circle-play songItemPlay" id="2"></i>
+        </div>
+        <div class="songItem">
+            <img src="songpic4.jpg" alt="cover">
+            <span class="songName">Nalonenena</span>
+            <i class="fas fa-circle-play songItemPlay" id="3"></i>
+        </div>
+        <div class="songItem">
+            <img src="songpic5.jpg" alt="cover">
+            <span class="songName">Oo Cheliya</span>
+            <i class="fas fa-circle-play songItemPlay" id="4"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Bottom Music Player -->
+<div class="bottom">
+    <div class="songInfo">
+        <img id="currentCover" src="songpic1.jpg" alt="cover" class="cover-img">
+        <span id="masterSongName">Paruvam Vanaga</span>
+        <img src="gif2.gif" width="42px" id="gif">
+    </div>
+    <input type="range" name="range" id="Progressbar" min="0" value="0" max="100">
+    <div class="controls">
+        <i class="fas fa-2x fa-backward" id="previous"></i>
+        <i class="fas fa-2x fa-circle-play" id="masterPlay"></i>
+        <i class="fas fa-2x fa-forward" id="next"></i>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
